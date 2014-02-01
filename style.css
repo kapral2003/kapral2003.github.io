@@ -71,7 +71,7 @@ h3		{ font-size: 16px; color: #666; }
 
 
 /*цвет ссылок в ячейках товара*/
-.products  .name a:visited 			{ color: #444; text-decoration: none;}
+.products  .name a 			{ color: #444; text-decoration: none;}
 .products  .name a:hover, a:active 	{ color: #C74848; text-decoration: underline;}
 .products >ul >li.pic:hover { border-color: #C74848;}
 
