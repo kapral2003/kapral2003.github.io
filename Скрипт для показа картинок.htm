@@ -1,0 +1,56 @@
+
+<html>
+    <head>
+       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	   <title> Скрипт для показа картинок</title>
+    </head>
+  <body marginwidth="0" marginheight="0">
+
+           	 <!--[IBA[PICTURE]BEGIN]-->
+	    <script type="text/javascript">
+    		function review(){
+    		img=document.getElementById('imgsource');
+    		wid=img.width;
+    		hei=img.height;
+    		if(wid<500&&hei<400){
+    		document.getElementById('imgsource').style.width="500px";
+    	}
+    	if(wid>500&&hei<400){
+    	document.getElementById('imgsource').style.width="500px";
+    	}
+    	if(wid<500&&hei>400){
+    	document.getElementById('imgsource').style.height="400px";
+    	}
+    	if(wid>500&&hei>400){
+    	(wid/500)>(hei/400)?document.getElementById('imgsource').style.width="500px":document.getElementById('imgsource').style.height="400px";
+    	}
+    	}
+    	</script>
+		
+		<table>
+		<tbody>
+		  <tr width="850px">
+		    <td style="width:500px;height:450px;text-align:right;">
+			  <img src="11.PNG" id="imgsource" style="width: 500px;">
+			</td>
+		  </tr>
+		  <tr width="850px">
+			<td style="width:200px;text-align:center;">
+			  <img src="11.PNG" width="70px" height="60px" style="border:solid black 2px;" onmouseover="document.getElementById('imgsource').src=this.src;review();">
+			  &nbsp;&nbsp;
+			  <img src="21.PNG" width="70px" height="60px" style="border:solid black 2px;" onmouseover="document.getElementById('imgsource').src=this.src;review();">
+			  &nbsp;&nbsp;
+			  <img src="31.PNG" width="70px" height="60px" style="border:solid black 2px;" onmouseover="document.getElementById('imgsource').src=this.src;review();">
+			  &nbsp;&nbsp;
+			  <img src="41.PNG" width="70px" height="60px" style="border:solid black 2px;" onmouseover="document.getElementById('imgsource').src=this.src;review();">
+			  &nbsp;&nbsp;
+			  <img src="51.PNG" width="70px" height="60px" style="border:solid black 2px;" onmouseover="document.getElementById('imgsource').src=this.src;review();">
+			  &nbsp;&nbsp;
+			</td>
+		 </tr>
+	   </tbody>
+	   </table>
+	   <!--[IBA[PICTURE]END]-->
+          
+
+ </body></html>
