@@ -9,8 +9,6 @@ body { text-align: center; font-family: arial, verdana, sans-serif; font-size: 1
 
 a img, :link img, :visited img { border: none; }
 img 				{ display: block; }
-a:link 				{ color: #C74848; text-decoration: underline; }
-a:visited 			{ color: #C74848; text-decoration: underline; }
 a:hover  	{ color: #DB7C7C; }
  
  
